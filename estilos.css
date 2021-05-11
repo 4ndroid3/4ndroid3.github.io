@@ -5,6 +5,9 @@ body {
 .mainbox {
 	background: purple;
 }
+.mainimage {
+	border-radius: 50%;
+}
 
 .habilidades {
 	background: yellow;
@@ -12,6 +15,10 @@ body {
 .personalinfo {
 	background: blue;
 	color: grey;
+}
+
+.personalinfo div {
+	border: 2px dashed gold;
 }
 
 .projectsbox {
