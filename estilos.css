@@ -1,1 +1,37 @@
+body {
+	background: black;
+}
+
+.mainbox {
+	background: purple;
+}
+.habilidades {
+	background: yellow;
+}
+.personalinfo {
+	background: blue;
+	color: grey;
+}
+
+.projectsbox {
+	background: gold;
+}
+
+.projectsbox p {
+	background: white;
+	border: 2px dashed gold;
+}
+
+.footerbox {
+	background: red;
+}
+#maintitle {
+	color: green;
+	border: 2px dashed gold;
+}
+
+#subtitle {
+	color: green;
+	border: 2px dashed gold;
+}
 
