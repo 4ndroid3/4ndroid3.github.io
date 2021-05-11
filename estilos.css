@@ -5,6 +5,7 @@ body {
 .mainbox {
 	background: purple;
 }
+
 .habilidades {
 	background: yellow;
 }
@@ -27,11 +28,11 @@ body {
 }
 #maintitle {
 	color: green;
-	border: 2px dashed gold;
+	border: 2px solid gold;
 }
 
 #subtitle {
 	color: green;
-	border: 2px dashed gold;
+	border: 2px solid gold;
 }
 
