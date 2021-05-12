@@ -7,8 +7,8 @@ body {
 }
 .mainimage {
 	border-radius: 50%;
-	border: 1px solid white;
-	width: 15%;	
+	border: 2px solid white;
+	width: 20%;	
 }
 
 .habilidades {
@@ -26,11 +26,12 @@ body {
 .projectsbox {
 	background: olive;
 	margin-top: 1%;
-	margin-bottom: 1%
+	margin-bottom: 1%;
 }
 
-.projectsbox div {
+#tarjeta {
 	border: 2px dashed gold;
+	font-size: 15px;
 }
 
 .footerbox {
