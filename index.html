@@ -74,63 +74,139 @@
 	
 	<div class= "projectsbox">
 		<h2>Proyectos:<h2>
-		
-		<p> <h3> Alma de Colibrí </h3>
-			
-			<a href="https://github.com/4ndroid3/almadecolibri_django2">Github</a><br>
-			Mi primer proyecto, el cual está subido a https://andijaimo.pythonanywhere.com/<br>
-			No es de mis mejores y más organizados proyectos. Pero fue el primero <br> que hice 
-			andar y fue diseñado y pensado para usarse en producción.
-		</p>
-		<p> <h3> Torneo de futbol </h3>
-			<a href="https://github.com/4ndroid3/torneo_futbol">Github</a><br>
-			Este proyecto es en Django, se realiza carga de datos a traves del Admin y 
-			luego se puede ver los datos del Toreno o de los equipos en los Templates. 
-			Como dato adicional en este proyecto experimenté con Django Signals, 
-			que al crear algun modelo automáticamente se actualizan otros Modelos diferentes. 
-			Tambien experimente creando un middleware personalizado 
-			para informar diferentes tareas en la consola.
-		</p>
-		<p> <h3> Funcionalidades Django REST Framework </h3>
-			<a href="https://github.com/4ndroid3/backend_test">Github</a><br>
-			El proyecto es de Django REST Framework y realiza varias tareas a 
-			traves de los diferentes endpoints. Tiene un sistema de autentificación 
-			por tokens de JWT y emula envio de emails con alguna tarea en especifica.
-			El proyecto está montado en un Contenedor de docker que corre Django.
-		</p>
-		<p> <h3> DB personal Peliculas / Series </h3>
-			<a href="https://github.com/4ndroid3/peliculas_series">Github</a><br>
-			Proyecto en el cual estoy trabajando actualmente, basado en una base de
-			datos personal de registro de películas y series vistas. 
-			La app levanta datos de la API oficial de la pagina IMDb y el usuario 
-			puede ir almacenando y guardando datos de las peliculas vistas. 
-			La idea es incluir Celery para tareas asíncronas con la API y aprovechar 
-			Celery para utilizar Redis para el Caché.
-		</p>
-		
-		
-		
-		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-		  <div class="carousel-inner">
-			<div class="carousel-item active">
-			  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+		<div class="d-flex">
+		<div>
+			<h3> Alma de Colibrí </h3>
+			<p> 
+				<a href="https://github.com/4ndroid3/almadecolibri_django2">Github</a><br>
+				Mi primer proyecto, el cual está subido a https://andijaimo.pythonanywhere.com/
+				No es de mis mejores y más organizados proyectos. Pero fue el primero que hice 
+				andar y fue diseñado y pensado para usarse en producción.
+			</p>
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
 			</div>
-			<div class="carousel-item">
-			  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
-			</div>
-			<div class="carousel-item">
-			  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
-			</div>
-		  </div>
-		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Previous</span>
-		  </button>
-		  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="visually-hidden">Next</span>
-		  </button>
 		</div>
+		<div>
+			<h3> Torneo de futbol </h3>
+			<p> 
+				<a href="https://github.com/4ndroid3/torneo_futbol">Github</a><br>
+				Este proyecto es en Django, se realiza carga de datos a traves del Admin y 
+				luego se puede ver los datos del Toreno o de los equipos en los Templates. 
+				Como dato adicional en este proyecto experimenté con Django Signals, 
+				que al crear algun modelo automáticamente se actualizan otros Modelos diferentes. 
+				Tambien experimente creando un middleware personalizado 
+				para informar diferentes tareas en la consola.
+			</p>
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</div>
+		</div>
+		<div class="d-flex">
+		<div>
+			<h3> Funcionalidades Django REST Framework </h3>
+			<p> 
+				<a href="https://github.com/4ndroid3/backend_test">Github</a><br>
+				El proyecto es de Django REST Framework y realiza varias tareas a 
+				traves de los diferentes endpoints. Tiene un sistema de autentificación 
+				por tokens de JWT y emula envio de emails con alguna tarea en especifica.
+				El proyecto está montado en un Contenedor de docker que corre Django.
+			</p>
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</div>
+		<div>
+			<h3> DB personal Peliculas / Series </h3>
+			<p> 
+				<a href="https://github.com/4ndroid3/peliculas_series">Github</a><br>
+				Proyecto en el cual estoy trabajando actualmente, basado en una base de
+				datos personal de registro de películas y series vistas. 
+				La app levanta datos de la API oficial de la pagina IMDb y el usuario 
+				puede ir almacenando y guardando datos de las peliculas vistas. 
+				La idea es incluir Celery para tareas asíncronas con la API y aprovechar 
+				Celery para utilizar Redis para el Caché.
+			</p>
+			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+				<div class="carousel-item">
+				  <img src="https://galaxytechsite.files.wordpress.com/2020/07/django-logo-negative.png?w=1086" class="d-block w-100" alt="">
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</div>
+		</div>
+		
+		
 	</div>
 	
 	<div class= "footerbox">
