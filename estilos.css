@@ -24,12 +24,14 @@ body {
 }
 
 .projectsbox {
-	background: gold;
+	background: olive;
+	margin-top: 1%;
+	margin-bottom: 1%
 }
 
-.projectsbox p {
-	background: white;
+.projectsbox div {
 	border: 2px dashed gold;
+	font-size: 70%;
 }
 
 .footerbox {
@@ -44,4 +46,3 @@ body {
 	color: green;
 	border: 2px solid gold;
 }
-
