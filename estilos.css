@@ -13,6 +13,7 @@ body {
 
 .habilidades {
 	background: yellow;
+	border: 2px dashed blue;
 }
 .personalinfo {
 	background: blue;
@@ -45,4 +46,11 @@ body {
 #subtitle {
 	color: green;
 	border: 2px solid gold;
+}
+
+#imgproyect {
+	border: 2px solid blue;
+	margin: 0px;
+	padding: 0px;
+	
 }
