@@ -3,7 +3,7 @@ body {
 }
 
 .mainbox {
-	background: purple;
+	background: black;
 }
 .mainimage {
 	border-radius: 50%;
@@ -39,13 +39,15 @@ body {
 	background: red;
 }
 #maintitle {
-	color: green;
+	color: white;
 	border: 2px solid gold;
+	
 }
 
 #subtitle {
-	color: green;
+	color: white;
 	border: 2px solid gold;
+	padding: 0px;
 }
 
 #imgproyect {
@@ -53,4 +55,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 	
+}
+
+#aboutme {
+	width: 50%;
+	border: 2px solid red;
 }
