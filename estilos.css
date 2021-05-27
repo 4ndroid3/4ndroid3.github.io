@@ -1,63 +1,90 @@
 body {
-	background: black;
+	background: #191716ff;
 }
 
 .mainbox {
-	background: black;
 }
 .mainimage {
 	border-radius: 50%;
-	border: 2px solid white;
+	border: 3px solid white;
 	width: 20%;	
 }
 
 .habilidades {
-	background: yellow;
-	border: 2px dashed blue;
+	border: 2px solid #28965aff;
+	background: #2a6041ff;
+	border-radius: 10px;
 }
 .personalinfo {
-	background: blue;
-	color: grey;
+	color: #a7a2a9ff;
 }
 
-.personalinfo div {
-	border: 2px dashed gold;
+.personalinfo{
+	border: 1px solid #28965aff;
+	border-radius: 10px;
+	background: #2a6041ff;	
+	padding: 5px;
+	margin: 5px;
+}
+#personalinfotarjeta {
+	background: #2a6041ff;	
+	border: 1px solid #28965aff;
+	padding: 1px;
+	margin: 1px;
 }
 
 .projectsbox {
-	background: olive;
 	margin-top: 1%;
 	margin-bottom: 1%;
+	padding: 0px;
+	margin: 0px;
 }
 
 #tarjeta {
-	border: 2px dashed gold;
+	border: 2px solid gold;
 	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
 }
 
 .footerbox {
-	background: red;
+	padding: 0px;
+	margin: 0px;
 }
 #maintitle {
 	color: white;
-	border: 2px solid gold;
+	border: 2px solid green;
+	padding:0px;
 	
 }
 
 #subtitle {
 	color: white;
-	border: 2px solid gold;
+	border: 2px solid green;
 	padding: 0px;
+	margin: 0px;
 }
 
 #imgproyect {
-	border: 2px solid blue;
-	margin: 0px;
+	
+	margin: 1px;
 	padding: 0px;
 	
 }
 
 #aboutme {
+	background: #2a6041ff;
 	width: 50%;
-	border: 2px solid red;
+	border: 2px solid #28965aff;
+	border-radius: 10px;
+	margin: 1px;
+	padding: 1px;
 }
+
+/* 
+--eerie-black: #191716ff;
+--silver-metallic: #a7a2a9ff;
+--lemon-yellow-crayola: #fff9a5ff;
+--spanish-green: #28965aff;
+--hunter-green: #2a6041ff;
+*/
