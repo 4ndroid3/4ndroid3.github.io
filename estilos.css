@@ -1,5 +1,6 @@
 body {
 	background: #191716ff;
+	color: #a7a2a9ff;
 }
 
 .mainbox {
@@ -7,62 +8,79 @@ body {
 .mainimage {
 	border-radius: 50%;
 	border: 3px solid white;
-	width: 20%;	
+	width: 20%;
+	margin-top: 10px;
 }
 
 .habilidades {
 	border: 2px solid #28965aff;
 	background: #2a6041ff;
 	border-radius: 10px;
-}
-.personalinfo {
-	color: #a7a2a9ff;
+	margin-bottom: 5px;
+	margin-top: 2.5px;
 }
 
+
 .personalinfo{
-	border: 1px solid #28965aff;
+	border: 2px solid #28965aff;
 	border-radius: 10px;
-	background: #2a6041ff;	
-	padding: 5px;
-	margin: 5px;
+	background: #2a6041ff;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	color: #a7a2a9ff;
 }
 #personalinfotarjeta {
+	border-radius: 10px;
 	background: #2a6041ff;	
 	border: 1px solid #28965aff;
-	padding: 1px;
+	padding: 2.5px;
 	margin: 1px;
 }
 
 .projectsbox {
-	margin-top: 1%;
-	margin-bottom: 1%;
-	padding: 0px;
-	margin: 0px;
+	border-radius: 10px;
+	color: #a7a2a9ff;	
+	background: #2a6041ff;
+	margin-bottom: 2.5px;
+	margin-top: 2.5px;	
+	border: 2px solid #28965aff;	
 }
 
 #tarjeta {
-	border: 2px solid gold;
+	border: 1px solid #28965aff;
+	border-radius: 10px;
 	font-size: 15px;
-	padding: 0px;
-	margin: 0px;
+	padding: 5px;
+	margin-top: 2.5px;
+	margin-bottom: 2.5px;
 }
 
 .footerbox {
-	padding: 0px;
-	margin: 0px;
+	border-radius: 10px;
+	color: #a7a2a9ff;	
+	background: #2a6041ff;
+	margin-bottom: 2.5px;
+	margin-top: 2.5px;	
+	border: 2px solid #28965aff;	
 }
 #maintitle {
 	color: white;
-	border: 2px solid green;
 	padding:0px;
-	
+	margin:0px;
+	font-family: Tahoma;
 }
 
 #subtitle {
 	color: white;
-	border: 2px solid green;
+	padding:0px;
+	margin:0px;
+	font-family: Tahoma;	
+}
+
+#ambos {
+	margin-left: 50px;
+	margin-right: 50px;
 	padding: 0px;
-	margin: 0px;
 }
 
 #imgproyect {
@@ -77,8 +95,21 @@ body {
 	width: 50%;
 	border: 2px solid #28965aff;
 	border-radius: 10px;
-	margin: 1px;
-	padding: 1px;
+	margin-bottom: 2.5px;
+	margin-top: 10px;
+	margin-right: 2.5px;
+	padding: 5px;
+}
+
+#aboutme2 {
+	background: #2a6041ff;
+	width: 50%;
+	border: 2px solid #28965aff;
+	border-radius: 10px;
+	margin-bottom: 2.5px;
+	margin-top: 10px;
+	margin-left: 2.5px;
+	padding: 5px;
 }
 
 /* 
