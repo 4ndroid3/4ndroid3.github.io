@@ -16,8 +16,8 @@ body {
 	border: 2px solid #28965aff;
 	background: #2a6041ff;
 	border-radius: 10px;
-	margin-bottom: 5px;
-	margin-top: 2.5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 
@@ -25,8 +25,8 @@ body {
 	border: 2px solid #28965aff;
 	border-radius: 10px;
 	background: #2a6041ff;
-	margin-bottom: 5px;
-	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 	color: #a7a2a9ff;
 }
 #personalinfotarjeta {
@@ -41,8 +41,8 @@ body {
 	border-radius: 10px;
 	color: #a7a2a9ff;	
 	background: #2a6041ff;
-	margin-bottom: 2.5px;
-	margin-top: 2.5px;	
+	margin-bottom: 5px;
+	margin-top: 5px;	
 	border: 2px solid #28965aff;	
 }
 
@@ -51,8 +51,8 @@ body {
 	border-radius: 10px;
 	font-size: 15px;
 	padding: 5px;
-	margin-top: 2.5px;
-	margin-bottom: 2.5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .footerbox {
@@ -60,7 +60,7 @@ body {
 	color: #a7a2a9ff;	
 	background: #2a6041ff;
 	margin-bottom: 2.5px;
-	margin-top: 2.5px;	
+	margin-top: 10px;	
 	border: 2px solid #28965aff;	
 }
 #maintitle {
@@ -115,9 +115,14 @@ body {
 	background: #2a6041ff;
 	font-size: 25px;
 	color: #a7a2a9ff;
+	border: 2px solid #28965aff;
 	border-radius: 10px;
 	margin-top: 10px;
 	font-family: Tahoma;
+}
+
+#elementos, #elementos2, #elementos3, #elementos4 {
+	color: #a7a2a9ff;
 }
 /* 
 --eerie-black: #191716ff;
