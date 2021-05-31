@@ -27,13 +27,13 @@ body {
 	background: #2a6041ff;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	padding-bottom: 5px;
 	color: #a7a2a9ff;
 }
 #personalinfotarjeta {
 	border-radius: 10px;
-	background: #2a6041ff;	
-	border: 1px solid #28965aff;
-	padding: 2.5px;
+	background: #2a6041ff;
+	padding: 15px;
 	margin: 1px;
 }
 
@@ -118,11 +118,16 @@ body {
 	border: 2px solid #28965aff;
 	border-radius: 10px;
 	margin-top: 10px;
-	font-family: Tahoma;
 }
 
 #elementos, #elementos2, #elementos3, #elementos4 {
 	color: #a7a2a9ff;
+}
+
+.titulos {
+	margin-top: 5px;
+	font-size: 25px;
+	color: rgb(41, 48, 44);
 }
 /* 
 --eerie-black: #191716ff;
@@ -131,3 +136,4 @@ body {
 --spanish-green: #28965aff;
 --hunter-green: #2a6041ff;
 */
+

@@ -24,7 +24,7 @@
 		
 			<div id="ambos" class="container-fluid">
 				<h1 id="maintitle" class="display-1 text-center">Jaimovich Andrés</h1>
-				<h2 id="subtitle" class="display-5 text-center">Desarrollador Back-End Python</h2>
+				<h2 id="subtitle" class="display-5 text-center">Desarrollador BackEnd Jr</h2>
 			</div>
 		</div>
 	</div>
@@ -38,16 +38,16 @@
 		    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
 		      <ul class="navbar-nav">
 		        <li class="nav-item">
-		          <a id="elementos" class="nav-link" href="#">Skills</a>
+		          <a id="elementos" class="nav-link" href="#section_skills">Skills</a>
 		        </li>
 		        <li class="nav-item">
-		          <a id="elementos2" class="nav-link" href="#">Educación</a>
+		          <a id="elementos2" class="nav-link" href="#section_educacion">Educación</a>
 		        </li>
 		        <li class="nav-item">
-		          <a id="elementos3" class="nav-link" href="#">Proyectos</a>
+		          <a id="elementos3" class="nav-link" href="#section_proyectos">Proyectos</a>
 		        </li>
 		        <li class="nav-item">
-		          <a id="elementos4" class="nav-link" href="#">Contacto</a>
+		          <a id="elementos4" class="nav-link" href="#section_contacto">Contacto</a>
 		        </li>
 		      </ul>
 		    </div>
@@ -72,58 +72,98 @@
 		</div>
 	</div>
 	
-	<div class="habilidades container-fluid">
-		<h4>Skills:</h4>
-		<p class="container-fluid"> 
-		En todos mis proyectos trato de ser organizado, y mantener todas mis funciones 
-		y clases comentadas para análisis posteriores. También mientras voy avanzando
-		con los proyectos uso linters como Flake8 o Pylint  para mantener mi código 
-		prolijo y respetar la sintaxis de Python, con el fin de que sea más legible 
-		y estén en regla.<br>
-		Puedo realizar  APIs complejas con Django REST Framework, paginas funcionales 
-		con Django y su sistema de Templates, montar contenedores en Docker, diseñar y
-		crear bases de datos funcionales y eficaces con el ORM de Django 
-		</p>
-		<h4>Tecnologías:</h4>
-		<p class="container-fluid"> 
-		- Python <br>
-		- Django <br>		
-		- Django REST 
-		</p>
-	</div>
+	<section id="section_skills">
+		<div class="habilidades container-fluid">
+			<h4 class="titulos">Skills:</h4>
+			<p class="container-fluid"> 
+			En todos mis proyectos trato de ser organizado, y mantener todas mis funciones 
+			y clases comentadas para análisis posteriores. También mientras voy avanzando
+			con los proyectos uso linters como Flake8 o Pylint  para mantener mi código 
+			prolijo y respetar la sintaxis de Python, con el fin de que sea más legible 
+			y estén en regla.<br>
+			Puedo realizar  APIs complejas con Django REST Framework, paginas funcionales 
+			con Django y su sistema de Templates, montar contenedores en Docker, diseñar y
+			crear bases de datos funcionales y eficaces con el ORM de Django 
+			</p>
+			<h4 class="titulos">Tecnologías:</h4>
+			<div class="d-flex container-fluid">
+				<div style="width: 50%;">
+					<p class="container-fluid"> 
+						<strong> > Python </strong>
+						>> Django
+						>> Django REST
+						>>> Celery
+						>>> MQRabbit
+					</p>
+					<p class="container-fluid">
+						<strong> > JavaScript </strong>
+						>> HTML
+						>> CSS
+						>>> JQuery
+					</p>
+					<p class="container-fluid">
+						<strong>> SQL</strong>
+						>> SQLite
+						>> Postgres
+						>> MySQL
+					</p>
+					
+				</div>
+				<div style="width: 50%;">
+					<p class="container-fluid">
+						<strong>> OS</strong>
+						>> Linux
+						>> Windows
+					</p>
+					<p class="container-fluid">
+						<strong>> GitHub</strong>
+					</p>
+					<p class="container-fluid">
+						<strong>> Docker</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
 	
-	<div class="personalinfo container-fluid">
-		<div>
-			<h4>Educación:</h4>
+	<section id="section_educacion">
+		<div class="personalinfo container-fluid">
+				<h4 class="titulos">Educación:</h4>
 				<div id="personalinfotarjeta">
-					<p>Tecnicatura Superior en Programación (2020 - 2021)<br>
+					<p style="font-size: 20px;"><strong>- Tecnicatura Superior en Programación (2020 - 2021)</strong></p> 
+					<p class="container-fluid">
 					Cursando en el instituto TECLAB. <br>
 					Contenido de la carrera: Materias de organizaciones de trabajos, 
 					gestion de proyectos, nociones basicas de la programación, 
 					gestion de bases de datos</p>
-					<p>Ingeniería en sistemas (2016 - 2018): Cursado el introductorio y 5 materias de primer año</p>
+					<p style="font-size: 20px;"><strong>- Ingeniería en sistemas (2016 - 2018):</strong></p> 
+					<p class="container-fluid">	Cursado el introductorio y 5 materias de primer año</p>
 				</div>
-				<h4>Idiomas:</h4>
-				<div id="personalinfotarjeta">
-					<h5>Inglés:</h5>
-					<p class="container-fluid">Oral: Intermedio<br>
-					Escrito: Intermedio</p>			
-				</div>
-			</div>
-		<h4>Cursos:</h4>
-		<div id="personalinfotarjeta">
-			<ul>
-				<li>Curso Python Basico</li>
-				<li>Curso Python Avanzado</li>		
-				<li>Curso Django</li>
-				<li>Curso Django Avanzado</li>
-			</ul>
 		</div>
-	</div>
+		<div class="personalinfo container-fluid">
+			<h4 class="titulos">Idiomas:</h4>
+			<div id="personalinfotarjeta">
+				<h5>Inglés:</h5>
+				<p class="container-fluid">Oral: Intermedio<br>
+				Escrito: Intermedio</p>			
+			</div>
+		</div>
+		<div class="personalinfo container-fluid">
+			<h4 class="titulos">Cursos:</h4>
+			<div id="personalinfotarjeta">
+				<li>Curso Python Basico en UTN</li>
+				<li>Curso Python Avanzado en Platzi</li>		
+				<li>Curso Django en Platzi</li>
+				<li>Curso Django Avanzado en Platzi</li>
+				<li>Fundamentos de la programación Web</li>
+			</div>
+		</div>
+	</section>
 	
-	<div class= "projectsbox container-fluid">
-		<h2>Proyectos:<h2>
-		<div class="container-fluid">
+	<section id="section_proyectos">
+		<div class= "projectsbox container-fluid">
+			<h2 class="titulos">Proyectos:<h2>
+			<div class="container-fluid">
 				<div id="tarjeta">
 					<h3> Alma de Colibrí </h3>
 					<p class="container-fluid"> 
@@ -273,12 +313,17 @@
 					</div>
 			</div>
 		</div>
-	</div>
+	</section>
+	<section id="section_contacto">
+		<div class= "footerbox container-fluid">
+			<h3 class="titulos"> Contacto</h3>
+			<p>> Email: jaimovichandres@gmail.com</p>
+			<p>> LinkedIn: <a href="https://www.linkedin.com/in/andres-jaimovich">www.linkedin.com/in/andres-jaimovich</a></p>
+			<p>> Perfil de GitHub: <a href="https://www.github.com/4ndroid3">www.github.com/4ndroid3</a></p>
+		</div>
+	</section>
 	
-	<div class= "footerbox container-fluid">
-		<h3> Pie de pagina </h3>
-		<p>Contactos, redes sociales</p>
-	</div>
+	
 	<script 
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" 
 		integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" 
