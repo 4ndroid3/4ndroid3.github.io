@@ -1,20 +1,20 @@
 body {
-	background: linear-gradient(#191716ff, #a7a2a9ff);
-	color: #a7a2a9ff;
+	background: linear-gradient(#ffffff, #909493);
+	color: black;
 }
 
 .mainbox {
 }
 .mainimage {
 	border-radius: 50%;
-	border: 3px solid white;
+	border: 3px solid black;
 	width: 20%;
 	margin-top: 10px;
 }
 
 .habilidades {
-	border: 2px solid #28965aff;
-	background: #2a6041ff;
+	border: 2px solid black;
+	background: #636363;
 	border-radius: 10px;
 	margin-bottom: 10px;
 	margin-top: 5px;
@@ -22,32 +22,30 @@ body {
 
 
 .personalinfo{
-	border: 2px solid #28965aff;
 	border-radius: 10px;
-	background: #2a6041ff;
+	border: 2px solid black;
+	background: #636363;
 	margin-bottom: 5px;
 	margin-top: 5px;
 	padding-bottom: 5px;
-	color: #a7a2a9ff;
 }
 #personalinfotarjeta {
 	border-radius: 10px;
-	background: #2a6041ff;
 	padding: 15px;
 	margin: 1px;
 }
 
 .projectsbox {
 	border-radius: 10px;
-	color: #a7a2a9ff;	
-	background: #2a6041ff;
+	background: #636363;
 	margin-bottom: 5px;
 	margin-top: 5px;	
-	border: 2px solid #28965aff;	
+	border: 2px solid black
+	;	
 }
 
 #tarjeta {
-	border: 1px solid #28965aff;
+	border: 1px solid black;
 	border-radius: 10px;
 	font-size: 15px;
 	padding: 5px;
@@ -57,21 +55,20 @@ body {
 
 .footerbox {
 	border-radius: 10px;
-	color: #a7a2a9ff;	
-	background: #2a6041ff;
+	background: #636363;
 	margin-bottom: 2.5px;
 	margin-top: 10px;	
-	border: 2px solid #28965aff;	
+	border: 2px solid black;	
 }
 #maintitle {
-	color: white;
+	color: rgb(36, 8, 8);
 	padding:0px;
 	margin:0px;
 	font-family: Tahoma;
 }
 
 #subtitle {
-	color: white;
+	color: rgb(5, 3, 3);
 	padding:0px;
 	margin:0px;
 	font-family: Tahoma;	
@@ -91,9 +88,9 @@ body {
 }
 
 #aboutme {
-	background: #2a6041ff;
+	background: #636363;
 	width: 50%;
-	border: 2px solid #28965aff;
+	border: 2px solid black;
 	border-radius: 10px;
 	margin-bottom: 2.5px;
 	margin-top: 5px;
@@ -102,9 +99,9 @@ body {
 }
 
 #aboutme2 {
-	background: #2a6041ff;
+	background: #636363;
 	width: 50%;
-	border: 2px solid #28965aff;
+	border: 2px solid black;
 	border-radius: 10px;
 	margin-bottom: 2.5px;
 	margin-top: 5px;
@@ -112,22 +109,21 @@ body {
 	padding: 5px;
 }
 #navbar {
-	background: #2a6041ff;
+	background: #636363;
 	font-size: 25px;
-	color: #a7a2a9ff;
-	border: 2px solid #28965aff;
+	color: black;
+	border: 2px solid black;
 	border-radius: 10px;
 	margin-top: 10px;
 }
 
 #elementos, #elementos2, #elementos3, #elementos4 {
-	color: #a7a2a9ff;
+	color: black;
 }
 
 .titulos {
 	margin-top: 5px;
 	font-size: 25px;
-	color: rgb(41, 48, 44);
 }
 /* 
 --eerie-black: #191716ff;
@@ -136,3 +132,4 @@ body {
 --spanish-green: #28965aff;
 --hunter-green: #2a6041ff;
 */
+

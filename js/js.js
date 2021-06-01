@@ -5,31 +5,31 @@ var el3 = document.getElementById("elementos3");
 var el4 = document.getElementById("elementos4");
 
 el1.addEventListener('mouseover', function (event) {
-    event.target.style.color = "#191716ff";
+    event.target.style.color = "#a7a2a9ff";
 })
 el1.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "black";
 })
 
 el2.addEventListener('mouseover', function (event) {
-    event.target.style.color = "#191716ff";
+    event.target.style.color = "#a7a2a9ff";
 })
 el2.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "black";
 })
 
 el3.addEventListener('mouseover', function (event) {
-    event.target.style.color = "#191716ff";
+    event.target.style.color = "#a7a2a9ff";
 })
 el3.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "black";
 })
 
 el4.addEventListener('mouseover', function (event) {
-    event.target.style.color = "#191716ff";
+    event.target.style.color = "#a7a2a9ff";
 })
 el4.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "black";
 })
 
 // *************************************************
