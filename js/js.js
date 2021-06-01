@@ -8,28 +8,28 @@ el1.addEventListener('mouseover', function (event) {
     event.target.style.color = "#191716ff";
 })
 el1.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "#Raul";
 })
 
 el2.addEventListener('mouseover', function (event) {
     event.target.style.color = "#191716ff";
 })
 el2.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "#Raul";
 })
 
 el3.addEventListener('mouseover', function (event) {
     event.target.style.color = "#191716ff";
 })
 el3.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "#Raul";
 })
 
 el4.addEventListener('mouseover', function (event) {
     event.target.style.color = "#191716ff";
 })
 el4.addEventListener('mouseout', function (event) {
-    event.target.style.color = "#a7a2a9ff";
+    event.target.style.color = "#Raul";
 })
 
 // *************************************************
