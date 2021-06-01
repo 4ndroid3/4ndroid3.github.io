@@ -4,12 +4,16 @@ body {
 }
 
 .mainbox {
+	background: linear-gradient(rgb(112, 107, 179), rgb(50, 37, 124));
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 10px;
 }
 .mainimage {
 	border-radius: 50%;
 	border: 3px solid white;
 	width: 20%;
-	margin-top: 10px;
 }
 
 .habilidades {
