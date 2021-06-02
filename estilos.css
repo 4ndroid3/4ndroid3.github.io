@@ -3,14 +3,14 @@ html {
 }
 
 body {
-	background: linear-gradient(rgb(231, 233, 228), rgb(106, 100, 109));
-	color: #a7a2a9ff;
+	rgb(231, 233, 228);
+	color: black;
 }
 
 .mainbox {
 	background: linear-gradient(rgb(16, 16, 17), rgb(51, 20, 228));
 	margin-top: 50px;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 	padding: 10px;
 }
 .mainimage {
@@ -20,8 +20,6 @@ body {
 }
 
 .habilidades {
-	border: 2px solid #28965aff;
-	background: rgb(231, 233, 228);
 	border-radius: 10px;
 	margin-bottom: 10px;
 	margin-top: 5px;
@@ -29,28 +27,20 @@ body {
 
 
 .personalinfo{
-	border: 2px solid #28965aff;
-	border-radius: 10px;
-	background: rgb(231, 233, 228);
 	margin-bottom: 5px;
 	margin-top: 5px;
 	padding-bottom: 5px;
-	color: #a7a2a9ff;
 }
 #personalinfotarjeta {
 	border-radius: 10px;
-	background: rgb(231, 233, 228);
 	padding: 15px;
 	margin: 1px;
 }
 
 .projectsbox {
 	border-radius: 10px;
-	color: #a7a2a9ff;	
-	background: rgb(231, 233, 228);
 	margin-bottom: 5px;
 	margin-top: 5px;	
-	border: 2px solid #28965aff;	
 }
 
 #tarjeta {
@@ -63,12 +53,8 @@ body {
 }
 
 .footerbox {
-	border-radius: 10px;
-	color: #a7a2a9ff;	
-	background: rgb(231, 233, 228);
 	margin-bottom: 2.5px;
-	margin-top: 10px;	
-	border: 2px solid #28965aff;	
+	margin-top: 10px;
 }
 #maintitle {
 	color: white;
@@ -98,16 +84,11 @@ body {
 }
 
 #aboutme {
-	background: rgb(231, 233, 228);
-	border: 2px solid #28965aff;
-	border-radius: 10px;
 	margin-bottom: 2.5px;
 	margin-top: 5px;
 }
 
 #aboutme2 {
-	background: rgb(231, 233, 228);
-	border: 2px solid #28965aff;
 	border-radius: 10px;
 	margin-bottom: 2.5px;
 	margin-top: 5px;
@@ -118,20 +99,18 @@ body {
 #navbar {
 	background: rgb(51, 20, 228);
 	font-size: 25px;
-	color: white;
-	border: 2px solid black;
-	border-radius: 10px;
-	margin-top: 10px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 #elementos, #elementos2, #elementos3, #elementos4 {
-	color: #a7a2a9ff;
+	color: white;
 }
 
 .titulos {
 	margin-top: 5px;
 	font-size: 25px;
-	color: rgb(41, 48, 44);
 }
 /* 
 --eerie-black: #191716ff;
