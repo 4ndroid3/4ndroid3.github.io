@@ -28,8 +28,9 @@
 	</div>
 
 
-	<body>
-	<nav id="navbar" class="navbar navbar-expand-lg navbar-light container">
+<body>
+	
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
 		  <div class="container-fluid centred">
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
@@ -53,7 +54,6 @@
 		  </div>
 		</nav>
 
-
 		<div id="aboutme" class="container">
 			<h2 class="titulos">¡Hola visitante!</h2>
 			<p>
@@ -71,23 +71,26 @@
 	<section id="section_skills">
 		<div class="habilidades container">
 			<h4 class="titulos">Skills:</h4>
-			<p class="container-fluid"> 
-			En todos mis proyectos trato de ser organizado, y mantener todas mis funciones 
-			y clases comentadas para análisis posteriores. También mientras voy avanzando
-			con los proyectos uso linters como Flake8 o Pylint  para mantener mi código 
-			prolijo y respetar la sintaxis de Python, con el fin de que sea más legible 
-			y estén en regla.<br>
-			Puedo realizar  APIs complejas con Django REST Framework, paginas funcionales 
-			con Django y su sistema de Templates, montar contenedores en Docker, diseñar y
-			crear bases de datos funcionales y eficaces con el ORM de Django 
-			</p>
+			<div class="d-flex">
+				<p class="container"> 
+				En todos mis proyectos trato de ser organizado, y mantener todas mis funciones 
+				y clases comentadas para análisis posteriores. También mientras voy avanzando
+				con los proyectos uso linters como Flake8 o Pylint  para mantener mi código 
+				prolijo y respetar la sintaxis de Python, con el fin de que sea más legible 
+				y estén en regla.<br>
+				Puedo realizar  APIs complejas con Django REST Framework, paginas funcionales 
+				con Django y su sistema de Templates, montar contenedores en Docker, diseñar y
+				crear bases de datos funcionales y eficaces con el ORM de Django 
+				</p>
+			</div>
+			
 			<h4 class="titulos">Tecnologías:</h4>
 			<div class="d-flex container-fluid">
 				<div style="width: 50%;">
 					<p class="container-fluid"> 
 						<strong> 🐍 Python </strong>
 						>> Django
-						{ Django REST, Celery, MQRabbit , Django ORM, Middlewares, Signals }
+						{ Django REST, Celery, RabbitMQ , Django ORM, Middlewares, Signals }
 					</p>
 					<p class="container-fluid">
 						<strong> ☕ JavaScript </strong>
