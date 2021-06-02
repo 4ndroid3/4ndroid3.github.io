@@ -1,13 +1,16 @@
+html {
+	background: black;
+}
+
 body {
-	background: linear-gradient(#191716ff, #a7a2a9ff);
+	background: linear-gradient(rgb(231, 233, 228), rgb(106, 100, 109));
 	color: #a7a2a9ff;
 }
 
 .mainbox {
-	background: linear-gradient(rgb(112, 107, 179), rgb(50, 37, 124));
-	margin-top: 20px;
-	margin-bottom: 10px;
-	border-radius: 10px;
+	background: linear-gradient(rgb(16, 16, 17), rgb(51, 20, 228));
+	margin-top: 50px;
+	margin-bottom: 40px;
 	padding: 10px;
 }
 .mainimage {
@@ -18,7 +21,7 @@ body {
 
 .habilidades {
 	border: 2px solid #28965aff;
-	background: #2a6041ff;
+	background: rgb(231, 233, 228);
 	border-radius: 10px;
 	margin-bottom: 10px;
 	margin-top: 5px;
@@ -28,7 +31,7 @@ body {
 .personalinfo{
 	border: 2px solid #28965aff;
 	border-radius: 10px;
-	background: #2a6041ff;
+	background: rgb(231, 233, 228);
 	margin-bottom: 5px;
 	margin-top: 5px;
 	padding-bottom: 5px;
@@ -36,7 +39,7 @@ body {
 }
 #personalinfotarjeta {
 	border-radius: 10px;
-	background: #2a6041ff;
+	background: rgb(231, 233, 228);
 	padding: 15px;
 	margin: 1px;
 }
@@ -44,7 +47,7 @@ body {
 .projectsbox {
 	border-radius: 10px;
 	color: #a7a2a9ff;	
-	background: #2a6041ff;
+	background: rgb(231, 233, 228);
 	margin-bottom: 5px;
 	margin-top: 5px;	
 	border: 2px solid #28965aff;	
@@ -62,7 +65,7 @@ body {
 .footerbox {
 	border-radius: 10px;
 	color: #a7a2a9ff;	
-	background: #2a6041ff;
+	background: rgb(231, 233, 228);
 	margin-bottom: 2.5px;
 	margin-top: 10px;	
 	border: 2px solid #28965aff;	
@@ -95,31 +98,28 @@ body {
 }
 
 #aboutme {
-	background: #2a6041ff;
-	width: 50%;
+	background: rgb(231, 233, 228);
 	border: 2px solid #28965aff;
 	border-radius: 10px;
 	margin-bottom: 2.5px;
 	margin-top: 5px;
-	margin-right: 5px;
-	padding: 5px;
 }
 
 #aboutme2 {
-	background: #2a6041ff;
-	width: 50%;
+	background: rgb(231, 233, 228);
 	border: 2px solid #28965aff;
 	border-radius: 10px;
 	margin-bottom: 2.5px;
 	margin-top: 5px;
 	margin-left: 5px;
+	margin-right: 10x;
 	padding: 5px;
 }
 #navbar {
-	background: #2a6041ff;
+	background: rgb(51, 20, 228);
 	font-size: 25px;
-	color: #a7a2a9ff;
-	border: 2px solid #28965aff;
+	color: white;
+	border: 2px solid black;
 	border-radius: 10px;
 	margin-top: 10px;
 }
