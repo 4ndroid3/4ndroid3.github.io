@@ -1,117 +1,149 @@
-html {
-	background: black;
-}
-
 body {
-	rgb(231, 233, 228);
-	color: black;
+    background: rgb(231, 233, 228);
+    color: black;
 }
 
 .mainbox {
-	background: linear-gradient(rgb(16, 16, 17), rgb(51, 20, 228));
-	margin-top: 50px;
-	margin-bottom: 0px;
-	padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding: 10px;
 }
+
 .mainimage {
-	border-radius: 50%;
-	border: 3px solid white;
-	width: 20%;
+    border-radius: 50%;
+    border: 3px solid white;
+    width: 20%;
 }
 
 .habilidades {
-	border-radius: 10px;
-	margin-bottom: 10px;
-	margin-top: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
-
-.personalinfo{
-	margin-bottom: 5px;
-	margin-top: 5px;
-	padding-bottom: 5px;
+.personalinfo {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-bottom: 5px;
 }
+
 #personalinfotarjeta {
-	border-radius: 10px;
-	padding: 15px;
-	margin: 1px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 1px;
 }
 
 .projectsbox {
-	border-radius: 10px;
-	margin-bottom: 5px;
-	margin-top: 5px;	
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 #tarjeta {
-	border: 1px solid #28965aff;
-	border-radius: 10px;
-	font-size: 15px;
-	padding: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+    border: 1px solid #28965aff;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .footerbox {
-	margin-bottom: 2.5px;
-	margin-top: 10px;
+    margin-bottom: 2.5px;
+    margin-top: 10px;
 }
+
 #maintitle {
-	color: white;
-	padding:0px;
-	margin:0px;
-	font-family: Tahoma;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
 }
 
 #subtitle {
-	color: white;
-	padding:0px;
-	margin:0px;
-	font-family: Tahoma;	
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
 }
 
 #ambos {
-	margin-left: 50px;
-	margin-right: 50px;
-	padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0px;
 }
 
 #imgproyect {
-	
-	margin: 1px;
-	padding: 0px;
-	
+    margin: 1px;
+    padding: 0px;
 }
 
 #aboutme {
-	margin-bottom: 2.5px;
-	margin-top: 5px;
+    margin-bottom: 2.5px;
+    margin-top: 5px;
 }
 
 #aboutme2 {
-	border-radius: 10px;
-	margin-bottom: 2.5px;
-	margin-top: 5px;
-	margin-left: 5px;
-	margin-right: 10x;
-	padding: 5px;
-}
-#navbar {
-	background: rgb(51, 20, 228);
-	font-size: 25px;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 2.5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 10x;
+    padding: 5px;
 }
 
-#elementos, #elementos2, #elementos3, #elementos4 {
-	color: white;
+#navbar {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+#elementos,
+#elementos2,
+#elementos3,
+#elementos4 {
+    color: white;
 }
 
 .titulos {
-	margin-top: 5px;
-	font-size: 25px;
+    margin-top: 5px;
+    font-size: 25px;
 }
+
+body,
+html {
+    height: 100%;
+}
+
+
+/* The hero image */
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("media/code.jpg");
+    /* Set a specific height */
+    height: 30%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* Place text in the middle of the image */
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
 /* 
 --eerie-black: #191716ff;
 --silver-metallic: #a7a2a9ff;
